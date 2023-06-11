@@ -1,0 +1,91 @@
+html, body{
+  background-image: url("./assets/images/—Pngtree—science\ or\ technology\ background\ with_1226624.jpg");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  color: silver;
+}
+
+footer {
+  text-align: right;
+  color: silver;
+}
+.tile-image {
+  width: 200px;
+  margin-right: 50px;
+  float: left;
+  border-radius: 20px;
+
+
+}
+.card{
+  width: 45%;
+  padding: 30px;
+  border-radius: 20px;
+
+}
+.left{
+  float: left;
+  text-align: justify;
+  background-image: url("./assets/images/pexels-johannes-plenio-1103970.jpg");
+  
+}
+.left .card-text{
+  color: black;
+
+}
+.left .card-title{
+  color:black;
+  font-size: 3rem;
+}
+.right{
+  float: right;
+  text-align: justify;
+  background-image: url("./assets/images/2.jpg");
+}
+.right .card-text{
+  color: black;
+
+}
+.right .card-title{
+  color:black;
+  font-size: 3rem;
+}
+
+@media (max-width:680px){
+  .logo{
+    width: 100px;
+  }
+  .h1{
+    text-align: center;
+    font-size: 3.5rem;
+
+  }
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .card img{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
